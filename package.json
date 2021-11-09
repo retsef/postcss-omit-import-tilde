@@ -18,13 +18,16 @@
   },
   "homepage": "https://github.com/vansosnin/postcss-omit-import-tilde",
   "dependencies": {
-    "postcss": "^5.0.21"
   },
   "devDependencies": {
     "ava": "^0.14.0",
     "eslint": "^2.10.0",
-    "eslint-config-postcss": "^2.0.2"
+    "eslint-config-postcss": "^2.0.2",
+    "postcss": "^8.0.0"
   },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  }
   "scripts": {
     "test": "ava && eslint *.js",
     "preversion": "npm test",
